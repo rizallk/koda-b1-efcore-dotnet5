@@ -1,6 +1,6 @@
-using EfCore1.Models;
+using EfCore2.Models;
 
-namespace EfCore1.Repositories;
+namespace EfCore2.Repositories;
 
 public interface IProductRepository
 {

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EfCore1.Middlewares;
+namespace EfCore2.Middlewares;
 
 public sealed class GlobalExceptionHandler : IExceptionHandler
 {

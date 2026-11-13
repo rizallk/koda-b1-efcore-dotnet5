@@ -1,8 +1,8 @@
-using EfCore1.DTOs;
-using EfCore1.Models;
-using EfCore1.Repositories;
+using EfCore2.DTOs;
+using EfCore2.Models;
+using EfCore2.Repositories;
 
-namespace EfCore1.Services;
+namespace EfCore2.Services;
 
 public sealed class ProductService(IProductRepository repository) : IProductService
 {

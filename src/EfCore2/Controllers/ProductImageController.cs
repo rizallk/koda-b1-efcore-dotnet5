@@ -1,9 +1,9 @@
 using System.Reflection.PortableExecutable;
-using EfCore1.Files;
-using EfCore1.Services;
+using EfCore2.Files;
+using EfCore2.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EfCore1.Controllers;
+namespace EfCore2.Controllers;
 
 [ApiController]
 [Route("api/v1/products/{productCode}/image")]

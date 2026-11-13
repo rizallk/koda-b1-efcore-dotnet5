@@ -1,8 +1,8 @@
 using System.Data;
-using EfCore1.Models;
+using EfCore2.Models;
 using Microsoft.Data.SqlClient;
 
-namespace EfCore1.Repositories;
+namespace EfCore2.Repositories;
 
 public sealed class SqlProductRepository(SqlConnection connection) : IProductRepository
 {

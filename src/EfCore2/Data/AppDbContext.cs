@@ -1,8 +1,7 @@
-using EfCore1.Models;
 using EfCore2.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace EfCore1.Data;
+namespace EfCore2.Data;
 
 public sealed class AppDbContext : DbContext
 {

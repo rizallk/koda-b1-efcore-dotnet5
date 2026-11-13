@@ -1,6 +1,6 @@
 using EfCore2.Models;
 
-namespace EfCore1.Models;
+namespace EfCore2.Models;
 
 public sealed class Product
 {

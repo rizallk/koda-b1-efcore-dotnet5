@@ -1,6 +1,6 @@
-using EfCore1.DTOs;
+using EfCore2.DTOs;
 
-namespace EfCore1.Services;
+namespace EfCore2.Services;
 
 public interface IProductService
 {

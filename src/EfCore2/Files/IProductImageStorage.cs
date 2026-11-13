@@ -1,4 +1,4 @@
-namespace EfCore1.Files;
+namespace EfCore2.Files;
 
 public interface IProductImageStorage
 {

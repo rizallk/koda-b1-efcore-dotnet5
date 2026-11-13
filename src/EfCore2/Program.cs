@@ -1,9 +1,9 @@
-using EfCore1.Data;
-using EfCore1.Files;
-using EfCore1.Middlewares;
-using EfCore1.Repositories;
-using EfCore1.Seeding;
-using EfCore1.Services;
+using EfCore2.Data;
+using EfCore2.Files;
+using EfCore2.Middlewares;
+using EfCore2.Repositories;
+using EfCore2.Seeding;
+using EfCore2.Services;
 using EfCore2.Seeding;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
@@ -34,10 +34,12 @@ builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 
 // EFCORE REPOSITORY
 builder.Services.AddScoped<IProductRepository, EfProductRepository>();
+builder.Services.AddScoped<IProductQueryRepository, EfProductQueryRepository>();
 
 // Service
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductImageStorage, LocalProductImageStorage>();
+builder.Services.AddScoped<IProductQueryService, ProductQueryService>();
 
 var connectionString = builder.Configuration.GetConnectionString("ecommerce")
         ?? throw new InvalidOperationException("ConnectionString : Belum dikonfigurasi");

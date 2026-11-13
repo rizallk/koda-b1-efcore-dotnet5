@@ -1,9 +1,9 @@
-using EfCore1.DTOs;
-using EfCore1.Models;
-using EfCore1.Services;
+using EfCore2.DTOs;
+using EfCore2.Models;
+using EfCore2.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EfCore1.Controllers;
+namespace EfCore2.Controllers;
 
 [ApiController]
 [Route("api/v1/products")]

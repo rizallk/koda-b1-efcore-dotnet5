@@ -1,4 +1,4 @@
-using EfCore1.Models;
+using EfCore2.Models;
 
 namespace EfCore2.Models;
 

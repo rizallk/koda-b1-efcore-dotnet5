@@ -1,4 +1,4 @@
-using EfCore1.Models;
+using EfCore2.Models;
 using EfCore2.Models;
 using Microsoft.EntityFrameworkCore;
 

@@ -1,6 +1,6 @@
-using EfCore1.Models;
+using EfCore2.Models;
 
-namespace EfCore1.DTOs;
+namespace EfCore2.DTOs;
 
 public sealed record ProductResponse(string ProductCode, string Name, decimal Price, int Stock, string Category)
 {

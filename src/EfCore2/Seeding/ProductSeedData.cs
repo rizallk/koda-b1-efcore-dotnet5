@@ -1,7 +1,7 @@
-using EfCore1.Models;
+using EfCore2.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace EfCore1.Seeding;
+namespace EfCore2.Seeding;
 
 public static class ProductSeedData
 {

@@ -1,9 +1,9 @@
-using EfCore1.Data;
-using EfCore1.Models;
+using EfCore2.Data;
+using EfCore2.Models;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
-namespace EfCore1.Repositories;
+namespace EfCore2.Repositories;
 
 public sealed class EfProductRepository : IProductRepository
 {

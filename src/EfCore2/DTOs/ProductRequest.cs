@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
-using EfCore1.Models;
+using EfCore2.Models;
 
-namespace EfCore1.DTOs;
+namespace EfCore2.DTOs;
 
 public sealed record ProductRequest(
   [Required, StringLength(30)]
